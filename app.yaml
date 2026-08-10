@@ -8,7 +8,7 @@ env:
   - name: LAKEBASE_SECRET_KEY
     value: "lakebase-url"
   - name: MASSIVE_SECRET_SCOPE
-    value: "database"
+    value: "massive"
   - name: MASSIVE_SECRET_KEY
-    value: "massive-api-key"
+    value: "api-key"
  
