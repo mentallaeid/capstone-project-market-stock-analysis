@@ -1,0 +1,14 @@
+command:
+  - "python"
+  - "mcp_server.py"
+ 
+env:
+  - name: LAKEBASE_SECRET_SCOPE
+    value: "database"
+  - name: LAKEBASE_SECRET_KEY
+    value: "lakebase-url"
+  - name: MASSIVE_SECRET_SCOPE
+    value: "database"
+  - name: MASSIVE_SECRET_KEY
+    value: "massive-api-key"
+ 
